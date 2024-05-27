@@ -1,3 +1,5 @@
+/* eslint-disable prettier/prettier */
+/* eslint-disable react-native/no-inline-styles */
 import React from 'react';
 import {Text, View, Image, StyleSheet, ScrollView} from 'react-native';
 import PetData from './PetData';
