@@ -1,3 +1,5 @@
+/* eslint-disable prettier/prettier */
+/* eslint-disable react-native/no-inline-styles */
 import React, {useEffect} from 'react';
 import {
   Text,
@@ -5,7 +7,6 @@ import {
   ScrollView,
   StyleSheet,
   View,
-  TextInput,
   Image,
   TouchableOpacity,
 } from 'react-native';

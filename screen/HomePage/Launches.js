@@ -1,23 +1,17 @@
+/* eslint-disable prettier/prettier */
+/* eslint-disable react-native/no-inline-styles */
 import React from 'react';
-import {
-  Image,
-  ScrollView,
-  StyleSheet,
-  Text,
-  View,
-} from 'react-native';
+import {Image, ScrollView, StyleSheet, Text, View} from 'react-native';
 
 const Launches = () => {
   const newlaunches = [
     {
-      
       image: require('../../assets/Homeimages/launches1.png'),
       text: 'Pet Accessories',
       Rs: '₹475.00',
       View: 'View All',
     },
     {
-      
       image: require('../../assets/Homeimages/launches2.png'),
       text: 'energy drinks for dogs',
       Rs: '₹475.00',
@@ -25,7 +19,7 @@ const Launches = () => {
     },
     {
       image: require('../../assets/Homeimages/launches2.png'),
-      
+
       text: 'energy drinks for dogs',
       Rs: '₹475.00',
       View: 'View All',
@@ -75,7 +69,7 @@ const styles = StyleSheet.create({
   launchRs: {
     marginLeft: 10,
     marginTop: 6,
-    fontWeight: "700",
+    fontWeight: '700',
     fontSize: 14,
     color: '#F39200',
   },

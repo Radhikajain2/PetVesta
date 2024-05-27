@@ -1,3 +1,5 @@
+/* eslint-disable prettier/prettier */
+/* eslint-disable react-native/no-inline-styles */
 import React, {useState} from 'react';
 import {
   Text,
@@ -118,6 +120,7 @@ const AddDeliveryAddress = () => {
                 onChangeText={text => setValue('fullName', text)}
                 value={field.value}
                 onSubmitEditing={() => {
+                  // eslint-disable-next-line no-undef
                   MobileNumberInputRef.current.focus();
                 }}
               />
@@ -405,7 +408,7 @@ const AddDeliveryAddress = () => {
                   style={styles.textinput}
                   placeholder="YYYY/MM/DD"
                   placeholderTextColor="#C6C6C6"
-                  value={selectedDate} // Display the selected date in the TextInput
+                  value={selectedDate}F
                 />
                 <Image
                   source={require('../../assets/calendar.png')}

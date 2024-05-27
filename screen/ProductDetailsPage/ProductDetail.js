@@ -1,3 +1,5 @@
+/* eslint-disable prettier/prettier */
+/* eslint-disable react-native/no-inline-styles */
 import React, {useEffect, useState} from 'react';
 import {
   View,
@@ -179,7 +181,7 @@ const styles = StyleSheet.create({
   image: {
     width: 200,
     height: 200,
-    resizeMode: 'contain', // Ensure the image maintains its aspect ratio
+    resizeMode: 'contain', 
     marginBottom: 30,
   },
   nameText: {

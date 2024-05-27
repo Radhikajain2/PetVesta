@@ -1,3 +1,5 @@
+/* eslint-disable prettier/prettier */
+/* eslint-disable react-native/no-inline-styles */
 import React, {useEffect, useState} from 'react';
 import {
   View,
@@ -32,7 +34,7 @@ const MyCart = () => {
   //  totalAmmount
   const discount = 151;
 
-  TotalAmmount = totalPrice - discount;
+  const TotalAmmount = totalPrice - discount;
   return (
     <View style={{flex: 1}}>
       {cart.length === 0 ? (

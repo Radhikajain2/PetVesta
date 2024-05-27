@@ -1,8 +1,9 @@
+/* eslint-disable prettier/prettier */
 import React from 'react';
 import {View, Text, ProgressBarAndroid, StyleSheet} from 'react-native';
 
 const ProgressBar = ({ratings}) => {
-  const fixedRatingValue = 4.5; 
+  const fixedRatingValue = 4.5;
   const renderProgressBars = () => {
     const bars = [];
     for (let i = 1; i <= 5; i++) {
@@ -28,7 +29,7 @@ const ProgressBar = ({ratings}) => {
     <View style={styles.container}>
       <View style={styles.ratingContainer}>
         <Text style={styles.ratingNumber}>{ratings}</Text>
-        
+
         <Text style={styles.totalRatingText}>Total Ratings</Text>
       </View>
       <View style={styles.progressContainer}>{renderProgressBars()}</View>
@@ -82,8 +83,3 @@ const styles = StyleSheet.create({
 });
 
 export default ProgressBar;
-
-
-
-
-
